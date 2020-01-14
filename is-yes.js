@@ -1,3 +1,4 @@
-export default function isYes() {
-    return 
+export default function isYes(yesAnswer) {
+    if yesAnswer 
+    return true
 };
