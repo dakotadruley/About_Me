@@ -1,4 +1,4 @@
-import compareNumbers from '../function.js';
+import compareNumbers from './function.js';
 
 // Initialize the DOM elements 
 let guessButton = document.getElementById('button');
@@ -34,7 +34,7 @@ guessButton.addEventListener('click', () => {
 // The disabled property sets or returns whether a button is disabled, or not.
     if (numOfTriesRemaining === 0 && guess !== correctNumber) {
         numOfTries.textContent = 0;
-        tryAgain.textContent = ('You failed to guess the correct number. Game over and you lose :(')
+        tryAgain.textContent = ('You failed to guess the correct number. Game over and you lose :(');
         document.getElementById('button').disabled = true;
     } else if (numOfTriesRemaining === 0 && guess === correctNumber) {
         document.getElementById('button').disabled = true;
