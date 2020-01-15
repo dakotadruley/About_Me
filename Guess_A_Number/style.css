@@ -2,9 +2,48 @@
     box-sizing: border-box;
 }
 
-.body {
-    background-color: hsla(300, , lightness, alpha);
+body {
+    background-color:hsla(263, 71%, 39%, 0.8);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
 }
-.result {
-    
+
+#numberImage {
+    height: 200px;
+    width: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
 }  
+
+h3 {
+    color: orange;
+    font-size: x-large;
+}
+
+#instructions {
+    font: larger;
+    line-height: 1.5;
+}
+
+#container {
+    border-style: dashed;
+    border-color: black;
+    padding: 14px;
+}
+
+#button {
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgba(28, 185, 99, 0.753);
+    border-color: black;
+    height: 60px;
+    width: 100px;
+}
+
+#numberInput {
+    border-color: black;
+    height: 60px;
+    font-size: large;
+}
