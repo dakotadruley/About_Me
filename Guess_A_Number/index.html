@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess A Number</title>
+</head>
+
+<body>
+    <div>
+        <h1>Guess A Number</h1>
+        <h3>Instructions:</h3>
+        <p>Using the space provided, enter a number as a guess. 
+            If your number is too high or too low, I will let you 
+            know and then you can guess again. However, you only 
+            have <strong>4</strong> guesses, so choose them wisely.</p>
+    </div>
+
+    <div>
+        <input id= "numberInput" type="number"><button id="button">Guess!</button>
+    </div>
+
+    <div class="result">
+        <p><span id="numOfTries"></span></p>
+        <p><span id="tryAgain"></span></p>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
